@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form action="procesarFormulario.php" method="get">
+    <p>Nombre: <input type="text" name="nombre" id="1" size="40"></p>
+    <input type="number" name="numero" id="2" min="105">
+    <input type="submit" name="submit" id="3">
+    <input type="radio" name="radio" id="4">
+    <input type="radio" name="radio" id="5">
+    <input type="file" name="file" id="6" accept=".pdf" required>
+    <br>
+    <input type="checkbox" name="chk1" id="7">
+    <input type="checkbox" name="chk1" id="8">
+
+    <ol>
+      <li><input type="checkbox" name="2" id="9"></li>
+      <li><input type="checkbox" name="3" id="10"></li>
+      <li><input type="checkbox" name="4" id="11"></li>
+      <li><input type="checkbox" name="5" id="12"></li>
+      <li><input type="radio" name="a" id="13"><input type="radio" name="a" id="14"><input type="radio" name="a"
+          id="15"><input type="radio" name="a" id="16"><input type="radio" name="a" id="17"></li>
+    </ol>
+    <br><input type="text" name="dawadaw" id="textogrande" placeholder="Escribe aqui tu nombre"> <br>
+    <label for="textogrande">hola</label> <br>
+    <textarea name="hoa" id="777" cols="30" placeholder="mecmecmecmecmecmecmecmecmecmecmecmecmecmecmecmecmec"
+      rows="10">Hlaaaa</textarea>
+    <select name="jejfa">
+      <optgroup label="Grupo 1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </optgroup>
+      <optgroup label="Grupo 2">
+        <option value="3" selected>3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </optgroup>
+
+    </select>
+    <br>
+    <fieldset>
+      <legend>Lugares visitados</legend>
+
+      <select name="menus2[]" multiple>
+        <option value="1">Elige un sitio</option>
+        <option value="4">Barcelona</option>
+        <option value="2">Madrid</option>
+        <option value="4">Tarragona</option>
+      </select>
+    </fieldset>
+    <button>
+      <img src="./img/perro.jpeg" alt="Perro" height="25"> creado con la etiqueta button</button>
+  </form>
+</body>
+
+</html>
