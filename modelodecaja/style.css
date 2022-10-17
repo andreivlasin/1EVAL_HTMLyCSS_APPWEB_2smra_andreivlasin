@@ -1,0 +1,61 @@
+p.cajanegra {
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+    border: black 2px solid;
+    color:  black;
+}
+ 
+p.cajaroja {
+    width: 50%;
+    height: 150px;
+    box-sizing: content-box;
+    border: red 10px dotted;
+
+}
+
+p.cajacolor {
+    width: 50%;
+    height: 150px;
+    border-top: black 5px dashed;
+    border-right: green 10px dotted;
+    border-bottom: blue 10px dotted;
+    border-left: red 5px double;
+    border-radius: 40px;
+    padding: 20px;
+  }
+
+
+
+p.cajaforma{
+    border: blue 2px solid;
+    width: 50%;
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+p.cajabola{
+        border: black 25px solid;
+        border-image-source: url("img/Circle.png");
+        text-align: justify;
+           
+}
+
+
+p.cajapastilla {
+    border-image-source: url("img/Circle.png");
+    border-image-slice: 75 fill;
+    text-align: justify;
+    width: 50%;
+    height: 10em;
+    padding-left: 9em;
+    padding-top: 5rem;
+}
+
+body{
+    background-color: grey;
+  
+}
