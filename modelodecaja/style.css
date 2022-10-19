@@ -29,12 +29,9 @@ p.cajacolor {
 
 p.cajaforma{
     border: blue 2px solid;
-    width: 50%;
-    height: 150px;
-    padding-top: 30px;
-    padding-left: 20px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 23px;
 }
 
 p.cajabola{
@@ -59,3 +56,4 @@ body{
     background-color: grey;
   
 }
+
