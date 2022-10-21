@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: royalblue;
+}
+
+header{
+    height: 20%;
+    background-color: lightblue;
+}
+
+nav{
+
+    height: 60%;
+    width: 20%;
+    background-color: lightseagreen;
+}
+
+
+footer{
+
+    height: 20%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+img.headerPhoto{
+    height: 50%;
+    background-color:;
+}
+
+li.menu{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+    border: 2px black solid;
+    padding: 10px;
+    background-color: blue;
+}
+
+a{
+    color: white;
+}
+
+
